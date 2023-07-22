@@ -36,7 +36,7 @@ const instance = basicLightbox.create(`<img src="" width="800" height="600">`, {
 function handleClick(a) {
   a.preventDefault();
   const datasetSource = a.target.dataset.source;
-  instance.element().querySelector("img").src = datasetSource;
+  instance.element(a).querySelector("img").src = datasetSource;
   instance.show();
 }
 
