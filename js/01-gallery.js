@@ -44,3 +44,5 @@ function logMessage(a) {
   if (a.code === "Escape");
   instance.close();
 }
+
+console.log(galleryItems);
