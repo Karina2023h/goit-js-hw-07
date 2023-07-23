@@ -16,6 +16,7 @@ function createGalleryItems(item) {
     })
     .join("");
 }
+// createGalleryItems();
 
 const lightbox = new SimpleLightbox(".gallery a", {
   captions: "true",
